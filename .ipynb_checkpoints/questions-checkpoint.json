@@ -1,0 +1,171 @@
+{
+  "sections": [
+    {
+      "section": "H1",
+      "instruction": "Explain your rationale when making these decisions. 3 sentences.",
+      "questions": [
+        {
+          "id": "H1_Q1",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed gain of $25",
+            "B": "A 25% chance to gain $100, and a 75% chance to gain nothing"
+          }
+        },
+        {
+          "id": "H1_Q2",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed gain of $200",
+            "B": "A 50% chance to gain $400, and a 50% chance to gain nothing"
+          }
+        },
+        {
+          "id": "H1_Q3",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed gain of $85",
+            "B": "A 90% chance to gain $100, and a 10% chance to gain nothing"
+          }
+        },
+        {
+          "id": "H1_Q4",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed loss of $85",
+            "B": "A 90% chance to lose $100, and a 10% chance to lose nothing"
+          }
+        },
+        {
+          "id": "H1_Q5",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed loss of $25",
+            "B": "A 25% chance to lose $100, and a 75% chance to lose nothing"
+          }
+        },
+        {
+          "id": "H1_Q6",
+          "prompt": "Which do you prefer?",
+          "choices": {
+            "A": "A guaranteed loss of $200",
+            "B": "A 50% chance to lose $400, and a 50% chance to lose nothing"
+          }
+        }
+      ]
+    },
+    {
+      "section": "H2",
+      "instruction": "Explain your rationale when making these decisions. 3 sentences.",
+      "questions": [
+        {
+          "id": "H2_Q1",
+          "pair": 1,
+          "frame": "gain",
+          "prompt": "You bought a stock at $100. It is now worth $150. You can:",
+          "choices": {
+            "A": "Sell and lock in your $50 gain",
+            "B": "Hold — 50% chance it rises to $200, 50% chance it falls back to $100"
+          }
+        },
+        {
+          "id": "H2_Q2",
+          "pair": 1,
+          "frame": "loss",
+          "prompt": "You bought a stock at $200. It dropped to $150. You can:",
+          "choices": {
+            "A": "Sell and accept your $50 loss",
+            "B": "Hold — 50% chance it recovers to $200, 50% chance it falls further to $100"
+          }
+        },
+        {
+          "id": "H2_Q3",
+          "pair": 2,
+          "frame": "gain",
+          "prompt": "You bought a stock that was valued at $100. It is now worth $180. You can:",
+          "choices": {
+            "A": "Sell and lock in your $80 gain",
+            "B": "Hold — 80% chance it rises to $200, 20% chance it falls back to $100"
+          }
+        },
+        {
+          "id": "H2_Q4",
+          "pair": 2,
+          "frame": "loss",
+          "prompt": "You bought a stock at $200. It dropped to $180. You can:",
+          "choices": {
+            "A": "Sell and accept your $20 loss",
+            "B": "Hold — 80% chance it recovers to $200, 20% chance it falls further to $100"
+          }
+        },
+        {
+          "id": "H2_Q5",
+          "pair": 3,
+          "frame": "gain",
+          "prompt": "You bought a stock at $100. It is now worth $120. You can:",
+          "choices": {
+            "A": "Sell and lock in your $20 gain",
+            "B": "Hold — 20% chance it rises to $200, 80% chance it falls back to $100"
+          }
+        },
+        {
+          "id": "H2_Q6",
+          "pair": 3,
+          "frame": "loss",
+          "prompt": "You bought a stock at $200. It dropped to $120. You can:",
+          "choices": {
+            "A": "Sell and accept your $80 loss",
+            "B": "Hold — 20% chance it recovers to $200, 80% chance it falls further to $100"
+          }
+        },
+        {
+          "id": "H2_Q7",
+          "pair": 4,
+          "frame": "gain",
+          "prompt": "You bought a stock at $500. It is now worth $750. You can:",
+          "choices": {
+            "A": "Sell and lock in your $250 gain",
+            "B": "Hold — 50% chance it rises to $1,000, 50% chance it falls back to $500"
+          }
+        },
+        {
+          "id": "H2_Q8",
+          "pair": 4,
+          "frame": "loss",
+          "prompt": "You bought a stock at $1,000. It dropped to $750. You can:",
+          "choices": {
+            "A": "Sell and accept your $250 loss",
+            "B": "Hold — 50% chance it recovers to $1,000, 50% chance it falls further to $500"
+          }
+        },
+        {
+          "id": "H2_Q9",
+          "pair": 5,
+          "frame": "gain",
+          "prompt": "You bought a stock at $100. It is now worth $110. You can:",
+          "choices": {
+            "A": "Sell and lock in your $10 gain",
+            "B": "Hold — 50% chance it rises to $150, 50% chance it falls back to $100"
+          }
+        },
+        {
+          "id": "H2_Q10",
+          "pair": 5,
+          "frame": "loss",
+          "prompt": "You bought a stock at $150. It dropped to $110. You can:",
+          "choices": {
+            "A": "Sell and accept your $40 loss",
+            "B": "Hold — 50% chance it recovers to $150, 50% chance it falls further to $100"
+          }
+        },
+        {
+          "id": "H2_Q11",
+          "pair": null,
+          "frame": null,
+          "prompt": "Explain your overall rationale for the decisions you made in this section.",
+          "choices": null
+        }
+      ]
+    }
+  ]
+}
